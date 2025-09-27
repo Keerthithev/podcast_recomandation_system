@@ -62,11 +62,11 @@ cd frontend
 # Install dependencies
 npm install
 
-# Create environment file
-# Create a file called .env in the frontend folder with this content:
+# Create environment file (OPTIONAL)
+# The frontend will work without this file, but you can create it to customize the API URL:
 ```
 
-**Create `frontend/.env` file with:**
+**Create `frontend/.env` file with (OPTIONAL):**
 ```env
 VITE_API_URL=http://localhost:8000/api/v1
 ```

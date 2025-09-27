@@ -84,9 +84,9 @@ PROJECT_NAME="PodcastAI Recommendation System"
 BACKEND_CORS_ORIGINS=["http://localhost:5173", "http://localhost:3000"]
 ```
 
-### Frontend Environment Variables (.env in frontend folder)
+### Frontend Environment Variables (.env in frontend folder) - OPTIONAL
 
-Create a `.env` file in the `frontend` directory:
+Create a `.env` file in the `frontend` directory (optional - will use default if not provided):
 
 ```env
 VITE_API_URL=http://localhost:8000/api/v1

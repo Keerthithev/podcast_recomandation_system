@@ -107,14 +107,15 @@ def check_env_files():
     if backend_ok:
         print("✅ Backend .env file exists")
     else:
-        print("❌ Backend .env file missing")
+        print("❌ Backend .env file missing (REQUIRED)")
     
     if frontend_ok:
         print("✅ Frontend .env file exists")
     else:
-        print("❌ Frontend .env file missing")
+        print("⚠️  Frontend .env file missing (OPTIONAL - will use default API URL)")
     
-    return backend_ok and frontend_ok
+    # Backend .env is required, frontend .env is optional
+    return backend_ok
 
 def check_ports():
     """Check if required ports are available"""
