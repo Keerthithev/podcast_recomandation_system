@@ -48,23 +48,11 @@ User Request → Recommendation Agent → User Preference Agent (gets preference
 
 ### Agent Responsibilities
 
-**Spotify API Agent**
-- Authenticate with Spotify API
-- Search podcast episodes by query
-- Fetch trending content
-- Convert Spotify data to standardized format
-
-**User Preference Agent**
-- Log user search queries with timestamps
-- Analyze search frequency and patterns
-- Store user preferences and behavior data
-- Provide preference insights to other agents
-
-**Recommendation Agent**
-- Request user preferences from User Preference Agent
-- Apply multiple recommendation strategies
-- Generate personalized podcast suggestions
-- Provide reasoning for recommendations
+| Agent | Responsibilities |
+|-------|-----------------|
+| **Spotify API Agent** | Authenticate with Spotify API, Search podcast episodes, Fetch trending content, Convert data to standardized format |
+| **User Preference Agent** | Log user search queries, Analyze search patterns, Store user preferences, Provide preference insights |
+| **Recommendation Agent** | Request user preferences, Apply ML strategies, Generate personalized suggestions, Provide recommendation reasoning |
 
 ### Communication Protocol
 
@@ -73,34 +61,10 @@ User Request → Recommendation Agent → User Preference Agent (gets preference
 
 ## Progress Demo - What's Done
 
-### Backend Implementation
-- FastAPI server with JWT authentication
-- MongoDB integration for user data and search logs
-- Spotify API integration for podcast retrieval
-- User preference tracking system
-- Basic recommendation engine
-
-### Frontend Implementation
-- React application with TypeScript
-- User authentication and registration
-- Podcast search functionality
-- User dashboard with recommendations
-- Favorites management
-- Responsive design with Tailwind CSS
-
-### AI Agents
-- Spotify API Agent fully functional
-- User Preference Agent logging search history
-- Recommendation Agent with basic ML strategies
-- OpenAI GPT integration for content understanding
-
-### Current Capabilities
-- Real-time podcast search via Spotify API
-- User preference tracking and analysis
-- Personalized recommendation generation
-- User authentication and profile management
-- Search history logging and analysis
-- Trending podcast discovery
+- **Backend**: FastAPI server with JWT authentication, MongoDB integration, and Spotify API integration
+- **Frontend**: React application with TypeScript, user authentication, and responsive design
+- **AI Agents**: Three specialized agents (Spotify, User Preference, Recommendation) with OpenAI GPT integration
+- **Capabilities**: Real-time podcast search, user preference tracking, and personalized recommendations
 
 ## Responsible AI Compliance Check
 
