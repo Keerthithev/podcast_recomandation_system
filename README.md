@@ -1,6 +1,6 @@
 # PodcastAI - Intelligent Podcast Recommendation System
 
-A sophisticated multi-agent AI system that provides personalized podcast recommendations using advanced machine learning, natural language processing, and intelligent recommendation algorithms.
+A sophisticated multi-agent AI system that provides personalized podcast recommendations using advanced machine learning and intelligent recommendation algorithms.
 
 ## System Architecture
 
@@ -12,13 +12,11 @@ The system employs three specialized AI agents working in harmony:
 - Handles podcast retrieval from Spotify API
 - Manages authentication and rate limiting
 - Processes and standardizes podcast data
-- Provides trending and search functionality
 
 **User Preference Agent**
 - Tracks user search history and interactions
 - Analyzes user behavior patterns
 - Stores preferences in MongoDB
-- Provides preference data to recommendation engine
 
 **Recommendation Agent**
 - Generates personalized recommendations
@@ -107,23 +105,6 @@ User Request → Recommendation Agent → User Preference Agent (gets preference
 - Search history logging and analysis
 - Trending podcast discovery
 
-### API Endpoints
-
-**Authentication**
-- POST /api/v1/auth/register - User registration
-- POST /api/v1/auth/login - User login
-- GET /api/v1/auth/me - Get current user
-
-**Podcasts**
-- GET /api/v1/podcasts/search - Search podcasts
-- GET /api/v1/podcasts/featured - Get featured podcasts
-- POST /api/v1/podcasts/{id}/favorite - Add to favorites
-
-**User Preferences**
-- POST /api/v1/user/search_log - Log search query
-- GET /api/v1/user/recommendations - Get recommendations
-- GET /api/v1/user/preferences - Get user preferences
-
 ## Responsible AI Compliance Check
 
 ### Data Privacy
@@ -191,12 +172,6 @@ The global podcast market is valued at $18.5 billion and growing at 27% annually
 - Spotify API integration for comprehensive content
 - OpenAI GPT for semantic understanding
 
-### Go-to-Market Strategy
-1. **Phase 1**: Launch MVP with core features
-2. **Phase 2**: Partner with podcast platforms
-3. **Phase 3**: Enterprise sales and API monetization
-4. **Phase 4**: Mobile app development and expansion
-
 ## Installation & Setup
 
 ### Prerequisites
@@ -256,6 +231,14 @@ VITE_API_URL=http://localhost:8000/api/v1
 - Session Duration: 15+ minutes
 - Feature Adoption: 70%+
 
+## Team Members
+
+| Name | Registration Number |
+|------|-------------------|
+| T. Keerthigan | IT23203112 |
+| T. Thiruverakan | IT23231078 |
+| K. Rishikesh Sharma | IT23392458 |
+
 ## Future Roadmap
 
 ### Phase 1: Enhanced AI (Q1 2024)
@@ -287,12 +270,6 @@ VITE_API_URL=http://localhost:8000/api/v1
 ## License
 
 This project is licensed under the MIT License.
-
-## Team
-
-**Keerthi Dev** - Full-stack Developer & AI Engineer
-- Multi-agent System Architecture
-- Technologies: React, FastAPI, MongoDB, OpenAI GPT, Spotify API
 
 ## Support
 
