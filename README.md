@@ -73,16 +73,14 @@ User Request → Recommendation Agent → User Preference Agent (gets preference
 
 ## Progress Demo - What's Done
 
-### Completed Features
-
-**Backend Implementation**
-- FastAPI server with authentication
+### Backend Implementation
+- FastAPI server with JWT authentication
 - MongoDB integration for user data and search logs
 - Spotify API integration for podcast retrieval
 - User preference tracking system
 - Basic recommendation engine
 
-**Frontend Implementation**
+### Frontend Implementation
 - React application with TypeScript
 - User authentication and registration
 - Podcast search functionality
@@ -90,14 +88,13 @@ User Request → Recommendation Agent → User Preference Agent (gets preference
 - Favorites management
 - Responsive design with Tailwind CSS
 
-**AI Agents**
+### AI Agents
 - Spotify API Agent fully functional
 - User Preference Agent logging search history
 - Recommendation Agent with basic ML strategies
 - OpenAI GPT integration for content understanding
 
 ### Current Capabilities
-
 - Real-time podcast search via Spotify API
 - User preference tracking and analysis
 - Personalized recommendation generation
@@ -130,47 +127,6 @@ User Request → Recommendation Agent → User Preference Agent (gets preference
 - No generation of harmful or inappropriate content
 - Regular monitoring of recommendation quality
 - Continuous improvement based on user feedback
-
-## Commercialization Concept Pitch
-
-### Market Opportunity
-The global podcast market is valued at $18.5 billion and growing at 27% annually. Current recommendation systems lack personalization and AI-driven insights.
-
-### Value Proposition
-- **For Users**: Discover relevant podcasts through AI-powered recommendations
-- **For Creators**: Increased discoverability through intelligent matching
-- **For Platforms**: Enhanced user engagement and retention
-
-### Business Model
-
-**Freemium Tier**
-- Basic recommendations (5 per day)
-- Limited search history
-- Standard user interface
-
-**Pro Tier ($9.99/month)**
-- Unlimited recommendations
-- Advanced analytics dashboard
-- Priority customer support
-- Export recommendations
-
-**Enterprise Tier ($99/month)**
-- Custom AI models
-- API access for integration
-- White-label solutions
-- Dedicated support
-
-### Revenue Streams
-1. **Subscription Revenue**: Monthly/yearly subscriptions
-2. **API Licensing**: Third-party platform integration
-3. **Premium Features**: Advanced analytics and insights
-4. **Enterprise Solutions**: Custom implementations
-
-### Competitive Advantage
-- Multi-agent AI architecture for superior recommendations
-- Real-time user preference learning
-- Spotify API integration for comprehensive content
-- OpenAI GPT for semantic understanding
 
 ## Installation & Setup
 
@@ -217,20 +173,6 @@ SECRET_KEY=your-secret-key
 VITE_API_URL=http://localhost:8000/api/v1
 ```
 
-## Performance Metrics
-
-### System Performance
-- API Response Time: < 200ms
-- Uptime: 99.9%
-- Concurrent Users: 10,000+
-- Recommendation Accuracy: 95%+
-
-### User Engagement
-- Click-through Rate: 25%+
-- User Retention: 80%+
-- Session Duration: 15+ minutes
-- Feature Adoption: 70%+
-
 ## Team Members
 
 | Name | Registration Number |
@@ -238,34 +180,6 @@ VITE_API_URL=http://localhost:8000/api/v1
 | T. Keerthigan | IT23203112 |
 | T. Thiruverakan | IT23231078 |
 | K. Rishikesh Sharma | IT23392458 |
-
-## Future Roadmap
-
-### Phase 1: Enhanced AI (Q1 2024)
-- Advanced ML models with deep learning
-- Real-time recommendation updates
-- Voice search integration
-- Mobile application development
-
-### Phase 2: Social Features (Q2 2024)
-- User reviews and ratings
-- Social sharing capabilities
-- Community features
-- Advanced analytics dashboard
-
-### Phase 3: Enterprise (Q3 2024)
-- Multi-modal AI (audio analysis)
-- Conversational AI chatbot
-- Predictive analytics
-- White-label solutions
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
 
 ## License
 
