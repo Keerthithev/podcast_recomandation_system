@@ -52,12 +52,17 @@ async def search_episodes(query: str, limit: int = 12) -> List[Podcast]:
 			podcasts: List[Podcast] = []
 			for item in items:
 				pid = item.get("id")
+				# Try to get audio preview URL if available
+				audio_url = None
+				if item.get("audio_preview_url"):
+					audio_url = item.get("audio_preview_url")
+				
 				podcasts.append(
 					Podcast(
 						id=pid,
 						title=item.get("name") or "Untitled",
 						description=item.get("description"),
-						audio_url=None,
+						audio_url=audio_url,  # Use preview URL if available
 						thumbnail=(item.get("images", [{}])[0].get("url") if item.get("images") else None),
 						duration=int(item.get("duration_ms", 0) / 1000) if item.get("duration_ms") else None,
 						source="Spotify",
