@@ -9,20 +9,20 @@ A sophisticated multi-agent AI system that provides personalized podcast recomme
 The system employs three specialized AI agents working in harmony:
 
 **Spotify API Agent**
-- Handles podcast retrieval from Spotify API
-- Manages authentication and rate limiting
-- Processes and standardizes podcast data
+- Handles podcast retrieval from Spotify API.
+- Manages authentication and rate limiting.
+- Processes and standardizes podcast data.
 
 **User Preference Agent**
-- Tracks user search history and interactions
-- Analyzes user behavior patterns
-- Stores preferences in MongoDB
+- Tracks user search history and interactions.
+- Analyzes user behavior patterns.
+- Stores preferences in MongoDB.
 
 **Recommendation Agent**
-- Generates personalized recommendations
-- Communicates with User Preference Agent
-- Uses content-based and collaborative filtering
-- Integrates OpenAI GPT for semantic understanding
+- Generates personalized recommendations.
+- Communicates with User Preference Agent.
+- Uses content-based and collaborative filtering.
+- Integrates OpenAI GPT for semantic understanding.
 
 ### Data Flow
 
@@ -34,15 +34,15 @@ User Request → Recommendation Agent → User Preference Agent (gets preference
 ### Technology Stack
 
 **Backend**
-- FastAPI for REST API
-- MongoDB for data storage
-- OpenAI GPT for AI processing
-- Spotify API for podcast data
+- FastAPI for REST API.
+- MongoDB for data storage.
+- OpenAI GPT for AI processing.
+- Spotify API for podcast data.
 
 **Frontend**
-- React 18 with TypeScript
-- Tailwind CSS for styling
-- Redux Toolkit for state management
+- React 18 with TypeScript.
+- Tailwind CSS for styling.
+- Redux Toolkit for state management.
 
 ## Agent Roles and Communication Flow
 
@@ -81,25 +81,25 @@ User Request → Recommendation Agent → User Preference Agent (gets preference
 - Transparent recommendation reasoning
 
 ### User Control
-- Users can delete their search history
-- Opt-out options for data collection
-- Clear privacy policy and terms of service
-- User feedback mechanisms for recommendations
+- Users can delete their search history.
+- Opt-out options for data collection.
+- Clear privacy policy and terms of service.
+- User feedback mechanisms for recommendations.
 
 ### Ethical AI Practices
-- OpenAI GPT used responsibly with content filtering
-- No generation of harmful or inappropriate content
-- Regular monitoring of recommendation quality
-- Continuous improvement based on user feedback
+- OpenAI GPT used responsibly with content filtering.
+- No generation of harmful or inappropriate content.
+- Regular monitoring of recommendation quality.
+- Continuous improvement based on user feedback.
 
 ## Installation & Setup
 
 ### Prerequisites
-- Python 3.8+
-- Node.js 16+
-- MongoDB Atlas account
-- Spotify Developer account
-- OpenAI API key
+- Python 3.8+.
+- Node.js 16+.
+- MongoDB Atlas account.
+- Spotify Developer account.
+- OpenAI API key.
 
 ### Quick Start
 
